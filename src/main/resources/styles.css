@@ -1,0 +1,87 @@
+/* styles.css */
+.root {
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -fx-background-color: #f4f4f4;
+}
+
+.label, .button, .text-field {
+    -fx-font-size: 14px;
+}
+
+/* Layouts */
+.vbox {
+    -fx-spacing: 10;
+    -fx-padding: 15;
+    -fx-alignment: center;
+}
+
+.hbox {
+    -fx-spacing: 10;
+    -fx-padding: 15;
+    -fx-alignment: center;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #007acc;
+    -fx-text-fill: white;
+    -fx-padding: 8 16;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #005999;
+}
+
+.button:disabled {
+    -fx-background-color: #cccccc;
+}
+
+/* TextFields */
+.text-field {
+    -fx-background-color: white;
+    -fx-padding: 8;
+    -fx-border-color: #d1d1d1;
+    -fx-border-radius: 5;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+/* Table */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #d1d1d1;
+    -fx-border-radius: 5;
+}
+
+.table-column-header {
+    -fx-background-color: #f1f1f1;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* Dialogs */
+.dialog-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d1d1d1;
+    -fx-border-radius: 5;
+}
+
+/* Specific Screens */
+#main-menu {
+    -fx-background-color: #ffffff;
+    -fx-padding: 15;
+    -fx-border-color: #d1d1d1;
+    -fx-border-radius: 5;
+}
+
+#room-status-window {
+    -fx-background-color: #ffffff;
+    -fx-padding: 15;
+    -fx-border-color: #d1d1d1;
+    -fx-border-radius: 5;
+}
